@@ -16,7 +16,7 @@ export const Hero = () => {
                'justifyContent': 'center',
                'alignItems': 'center',
                'width': '100%',
-               'backgroundImage': 'url(/mock.png)',
+               'backgroundImage': 'url(../../mock.png)',
                'backgroundSize': 'cover',
                'backgroundPosition': 'center',
                'backgroundRepeat': 'no-repeat',

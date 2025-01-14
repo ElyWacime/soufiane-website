@@ -5,6 +5,7 @@ interface Props {
    width?: number;
    height?: number;
 }
+import serverImage from '../../public/mock.png';
 
 const ChevronDownIcon = ({
    fill,
@@ -33,6 +34,18 @@ const ChevronDownIcon = ({
       </svg>
    );
 };
+
+// const ChevronDownIcon = ({size, width = 24, height = 24, ...props}: Props) => {
+//    return (
+//       <img
+//          src={serverImage}
+//          alt="Chevron Down Icon"
+//          height={size || height}
+//          width={size || width}
+//          {...props}
+//       />
+//    );
+// };
 
 const TagUserIcon = ({
    fill,
@@ -69,6 +82,18 @@ const TagUserIcon = ({
    );
 };
 
+// const ServerIcon = ({size, width = 24, height = 24, ...props}: Props) => {
+//    return (
+//       <img
+//          src={serverImage}
+//          alt="Server Icon"
+//          height={size || height}
+//          width={size || width}
+//          {...props}
+//       />
+//    );
+// };
+
 const ServerIcon = ({fill, size, width = 24, height = 24, ...props}: Props) => {
    return (
       <svg
@@ -89,6 +114,18 @@ const ServerIcon = ({fill, size, width = 24, height = 24, ...props}: Props) => {
       </svg>
    );
 };
+
+// const FlashIcon = ({size, width = 24, height = 24, ...props}: Props) => {
+//    return (
+//       <img
+//          src={serverImage}
+//          alt="Flash Icon"
+//          height={size || height}
+//          width={size || width}
+//          {...props}
+//       />
+//    );
+// };
 
 const FlashIcon = ({fill, size, width = 24, height = 24, ...props}: Props) => {
    return (
