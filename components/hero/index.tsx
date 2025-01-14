@@ -71,8 +71,8 @@ export const Hero = () => {
 
                <Text
                   css={{
-                     color: '$accents8',
-                     maxWidth: '700px',
+                     color: '$accents8'
+                     // maxWidth: '700px',
                   }}
                   size={'$lg'}
                   span

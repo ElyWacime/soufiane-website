@@ -16,7 +16,7 @@ export const Plans = () => {
       >
         <Flex direction={'column'} align={'center'}>
           <Text span css={{ color: '$blue600' }}>
-            Awesome Feature
+            Choose what suits you
           </Text>
           <Text h2>Flexible Plans</Text>
         </Flex>
@@ -31,60 +31,475 @@ export const Plans = () => {
               <Grid.Container css={{ pl: '$6' }}>
                 <Grid xs={12}>
                   <Text h4 css={{ lineHeight: '$xs' }}>
-                    Free
+                    1 Month
                   </Text>
                 </Grid>
                 <Grid xs={12}>
                   <Text css={{ color: '$accents8' }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
+                    High Performance Server
                   </Text>
                 </Grid>
               </Grid.Container>
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
-                $0{' '}
+                $12{' '}
               </Text>
               <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
-              <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
+              <Button css={{ mt: '$7', mb: '$12' }}>Subscribe</Button>
 
               <Divider />
               <Box as={'ul'}>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    1 Team Members
+                    50% OFF
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    1 Website
+                  + 120,000 Movies & Series (VOD)
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    1 GB Storage
+                  + 22,000 Live IPTV Channels
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    1 TB Transfer
+                    Free update (TVs and VODs)
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    Email Support
+                    4K, UHD, FHD, HD, Channels
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    24/7 Live Chat Support
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Always Uptime Server
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Support All Device
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Instant Activation!
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Fast & Stable
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Premium Server, No Buffering
                   </Text>
                 </Flex>
               </Box>
             </Card.Body>
           </Card>
+          
+          
           <Card css={{ p: '$6', mw: '400px' }}>
+            <Card.Header>
+              <Grid.Container css={{ pl: '$6' }}>
+                <Grid xs={12}>
+                  <Text h4 css={{ lineHeight: '$xs' }}>
+                    3 Month
+                  </Text>
+                </Grid>
+                <Grid xs={12}>
+                  <Text css={{ color: '$accents8' }}>
+                    High Performance Server
+                  </Text>
+                </Grid>
+              </Grid.Container>
+            </Card.Header>
+            <Card.Body css={{ py: '$4' }}>
+              <Text css={{ display: 'contents' }} h2>
+                $9{' '}
+              </Text>
+              <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
+              <Button css={{ mt: '$7', mb: '$12' }}>Subscribe</Button>
+
+              <Divider />
+              <Box as={'ul'}>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    55% OFF
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                  + 120,000 Movies & Series (VOD)
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                  + 22,000 Live IPTV Channels
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Free update (TVs and VODs)
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    4K, UHD, FHD, HD, Channels
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    24/7 Live Chat Support
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Always Uptime Server
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Support All Device
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Instant Activation!
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Fast & Stable
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Premium Server, No Buffering
+                  </Text>
+                </Flex>
+              </Box>
+            </Card.Body>
+          </Card>
+          
+          
+          <Card css={{ p: '$6', mw: '400px' }}>
+            <Card.Header>
+              <Grid.Container css={{ pl: '$6' }}>
+                <Grid xs={12}>
+                  <Text h4 css={{ lineHeight: '$xs' }}>
+                    6 Month
+                  </Text>
+                </Grid>
+                <Grid xs={12}>
+                  <Text css={{ color: '$accents8' }}>
+                    High Performance Server
+                  </Text>
+                </Grid>
+              </Grid.Container>
+            </Card.Header>
+            <Card.Body css={{ py: '$4' }}>
+              <Text css={{ display: 'contents' }} h2>
+                $7{' '}
+              </Text>
+              <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
+              <Button css={{ mt: '$7', mb: '$12' }}>Subscribe</Button>
+
+              <Divider />
+              <Box as={'ul'}>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    65% OFF
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                  + 120,000 Movies & Series (VOD)
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                  + 22,000 Live IPTV Channels
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Free update (TVs and VODs)
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    4K, UHD, FHD, HD, Channels
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    24/7 Live Chat Support
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Always Uptime Server
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Support All Device
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Instant Activation!
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Fast & Stable
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Premium Server, No Buffering
+                  </Text>
+                </Flex>
+              </Box>
+            </Card.Body>
+          </Card>
+          
+          
+          <Card css={{ p: '$6', mw: '400px'}}>
+            <Card.Header>
+              <Grid.Container css={{ pl: '$6' }}>
+                <Grid xs={12}>
+                  <Text h4 css={{ lineHeight: '$xs' }}>
+                    12 Month
+                  </Text>
+                </Grid>
+                <Grid xs={12}>
+                  <Text css={{ color: '$accents8' }}>
+                    High Performance Server
+                  </Text>
+                </Grid>
+              </Grid.Container>
+            </Card.Header>
+            <Card.Body css={{ py: '$4' }}>
+              <Text css={{ display: 'contents' }} h2>
+                $4{' '}
+              </Text>
+              <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
+              <Button css={{ mt: '$7', mb: '$12' }}>Subscribe</Button>
+
+              <Divider />
+              <Box as={'ul'}>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    80% OFF
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                  + 120,000 Movies & Series (VOD)
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                  + 22,000 Live IPTV Channels
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Free update (TVs and VODs)
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    4K, UHD, FHD, HD, Channels
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    24/7 Live Chat Support
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Always Uptime Server
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Support All Device
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Instant Activation!
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Fast & Stable
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Premium Server, No Buffering
+                  </Text>
+                </Flex>
+              </Box>
+            </Card.Body>
+          </Card>
+
+
+          <Card css={{ p: '$6', mw: '400px' }}>
+            <Card.Header>
+              <Grid.Container css={{ pl: '$6' }}>
+                <Grid xs={12}>
+                  <Text h4 css={{ lineHeight: '$xs' }}>
+                    24 Month
+                  </Text>
+                </Grid>
+                <Grid xs={12}>
+                  <Text css={{ color: '$accents8' }}>
+                    High Performance Server
+                  </Text>
+                </Grid>
+              </Grid.Container>
+            </Card.Header>
+            <Card.Body css={{ py: '$4' }}>
+              <Text css={{ display: 'contents' }} h2>
+                $3{' '}
+              </Text>
+              <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
+              <Button css={{ mt: '$7', mb: '$12' }}>Subscribe</Button>
+
+              <Divider />
+              <Box as={'ul'}>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    85% OFF
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                  + 120,000 Movies & Series (VOD)
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                  + 22,000 Live IPTV Channels
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Free update (TVs and VODs)
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    4K, UHD, FHD, HD, Channels
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    24/7 Live Chat Support
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Always Uptime Server
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Support All Device
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Instant Activation!
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Fast & Stable
+                  </Text>
+                </Flex>
+                <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
+                  <CheckIcon />
+                  <Text span css={{ color: '$accents8' }}>
+                    Premium Server, No Buffering
+                  </Text>
+                </Flex>
+              </Box>
+            </Card.Body>
+          </Card>
+          {/* <Card css={{ p: '$6', mw: '400px' }}>
             <Card.Header>
               <Grid.Container css={{ pl: '$6' }}>
                 <Grid xs={12}>
@@ -100,6 +515,7 @@ export const Plans = () => {
                 </Grid>
               </Grid.Container>
             </Card.Header>
+
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
                 $19{' '}
@@ -141,8 +557,8 @@ export const Plans = () => {
                 </Flex>
               </Box>
             </Card.Body>
-          </Card>
-          <Card css={{ p: '$6', mw: '400px' }}>
+          </Card> */}
+          {/* <Card css={{ p: '$6', mw: '400px' }}>
             <Card.Header>
               <Grid.Container css={{ pl: '$6' }}>
                 <Grid xs={12}>
@@ -199,8 +615,8 @@ export const Plans = () => {
                 </Flex>
               </Box>
             </Card.Body>
-          </Card>
-          <Card css={{ p: '$6', mw: '400px' }}>
+          </Card> */}
+          {/* <Card css={{ p: '$6', mw: '400px' }}>
             <Card.Header>
               <Grid.Container css={{ pl: '$6' }}>
                 <Grid xs={12}>
@@ -257,7 +673,7 @@ export const Plans = () => {
                 </Flex>
               </Box>
             </Card.Body>
-          </Card>
+          </Card> */}
         </Flex>
       </Flex>
 

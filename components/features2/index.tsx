@@ -29,12 +29,15 @@ export const Features2 = () => {
             <Flex direction="column" align={'center'}>
                <Text span
                   css={{
+                     margin: '2rem',
                      color: '$blue600',
-                     fontSize: '28px'
+                     fontSize: '28px',
+                     fontWeight: '700'
                      }}>
                   How to get started ?
                </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>
+                  1. Choose a Subscription Plan</Text>
                <Text
                   span
                   css={{
@@ -42,10 +45,8 @@ export const Features2 = () => {
                      color: '$accents8',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  Pick the plan that works best for you – we have options to fit every budget.
+
                </Text>
 
                <Flex
@@ -61,10 +62,10 @@ export const Features2 = () => {
                         gap: '$5',
                      }}
                   >
-                     <BoxIcon />
+                     {/* <BoxIcon /> */}
                      <Flex direction={'column'}>
                         <Text h4 weight={'medium'}>
-                           Your title here
+                           2. Follow Our Simple Setup Guide
                         </Text>
                         <Text
                            span
@@ -73,9 +74,7 @@ export const Features2 = () => {
                               color: '$accents8',
                            }}
                         >
-                           Lorem ipsum dolor sit amet, consectetur adipiscing
-                           elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                           nisl aliquet nisl,
+                           Activate your service with ease using our step-by-step instructions.
                         </Text>
                      </Flex>
                   </Flex>
@@ -85,10 +84,10 @@ export const Features2 = () => {
                         gap: '$5',
                      }}
                   >
-                     <BoxIcon />
+                     {/* <BoxIcon /> */}
                      <Flex direction={'column'}>
                         <Text h4 weight={'medium'}>
-                           Your title here
+                           3. Enjoy Unlimited Entertainment
                         </Text>
                         <Text
                            span
@@ -97,16 +96,27 @@ export const Features2 = () => {
                               color: '$accents8',
                            }}
                         >
-                           Lorem ipsum dolor sit amet, consectetur adipiscing
-                           elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                           nisl aliquet nisl,
+                           Sit back and stream your favorite shows, movies, sports, and much more.
                         </Text>
                      </Flex>
                   </Flex>
                </Flex>
             </Flex>
-            <Flex align={'center'}>
+            <Flex 
+               align={'center'}
+               direction={'column'}
+               >
                <FeatureIcon />
+               <Text
+                  // css={{
+                  //    margin: '1rem'
+                  // }}
+               >Start Your Journey Now – Claim Your 50% Off</Text>
+               <Button
+                  css={{
+                     margin: '1rem'
+                  }}
+               >Get Started</Button>
             </Flex>
          </Flex>
 

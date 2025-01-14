@@ -24,9 +24,9 @@ const Home: NextPage = () => {
             <Features1 />
             <Features2 />
             <Features3 />
+            <Plans />
             <Testimonials />
             <Statistics />
-            <Plans />
             <Faq />
             <Trial />
             <Footer />

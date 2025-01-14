@@ -21,10 +21,10 @@ export const Features3 = () => {
                   pt: '$20',
                }}
             >
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+               <Text span css={{color: '$blue600', fontSize: '28px', fontWeight: '700'}}>
+                  What we offer
                </Text>
-               <Text h3>Your title here</Text>
+               {/* <Text h3>Your title here</Text> */}
                <Text
                   span
                   css={{
@@ -33,9 +33,9 @@ export const Features3 = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec
+                  Over 90,000 Channels.
+                  Access a massive selection of live TV channels, including sports,
+                  news, movies, kids’ programming, and entertainment from all over the world.
                </Text>
             </Flex>
             <Flex
@@ -52,11 +52,10 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Vast Movie & Series Library</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              Enjoy thousands of on-demand movies and TV series in every genre imaginable,
+                              constantly updated to keep you entertained.
                            </Text>
                         </Flex>
                      </Flex>
@@ -67,11 +66,11 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Multi-Quality Streaming</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              Whether you’re watching in 4K, Full HD, HD, or SD,
+                              our service provides crystal-clear options for
+                              every device and internet speed.
                            </Text>
                         </Flex>
                      </Flex>
@@ -92,11 +91,10 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Content for All Ages</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              From kids’ shows to family-friendly programming, drama, action,
+                              and more – we’ve got something for everyone.
                            </Text>
                         </Flex>
                      </Flex>
@@ -107,11 +105,10 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Premium Servers with No Buffering</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              Enjoy uninterrupted streaming with our high-performance servers,
+                              ensuring a smooth experience even during peak hours.
                            </Text>
                         </Flex>
                      </Flex>
