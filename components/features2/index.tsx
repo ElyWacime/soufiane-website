@@ -27,8 +27,12 @@ export const Features2 = () => {
             }}
          >
             <Flex direction="column" align={'center'}>
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+               <Text span
+                  css={{
+                     color: '$blue600',
+                     fontSize: '28px'
+                     }}>
+                  How to get started ?
                </Text>
                <Text h3>Your title here</Text>
                <Text

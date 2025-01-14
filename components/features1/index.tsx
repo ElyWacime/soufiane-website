@@ -27,10 +27,14 @@ export const Features1 = () => {
             }}
          >
             <Flex direction="column">
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+               <Text span
+                  css={{
+                     color: '$blue600',
+                     fontSize: '28px'
+                     }}>
+               Why Choose [Your IPTV Service Name]?
                </Text>
-               <Text h3>Your title here</Text>
+               {/* <Text h3>Unmatched Variety</Text>
                <Text
                   span
                   css={{
@@ -38,11 +42,8 @@ export const Features1 = () => {
                      color: '$accents8',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
-               </Text>
+                  With over 90,000 channels, you’ll never run out of options for entertainment.
+               </Text> */}
 
                <Flex
                   css={{
@@ -53,7 +54,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     Unmatched Variety
                      </Text>
                      <Text
                         span
@@ -62,9 +63,32 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        With over 90,000 channels, you’ll never run out of options for entertainment.
+
+                     </Text>
+                  </Flex>
+               </Flex>
+
+               <Flex
+                  css={{
+                     py: '$10',
+                     gap: '$5',
+                  }}
+               >
+                  <BoxIcon />
+                  <Flex direction={'column'}>
+                     <Text h4 weight={'medium'}>
+                     Affordable Plans
+                     </Text>
+                     <Text
+                        span
+                        css={{
+                           maxWidth: '400px',
+                           color: '$accents8',
+                        }}
+                     >
+                        Get the best value for your money, with flexible subscription plans designed to fit your needs.
+
                      </Text>
                   </Flex>
                </Flex>
@@ -77,7 +101,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     Full Device Compatibility
                      </Text>
                      <Text
                         span
@@ -86,9 +110,8 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        Enjoy streaming on all major devices: Smart TVs, Android, iOS, Firestick, and PCs.
+
                      </Text>
                   </Flex>
                </Flex>
@@ -101,7 +124,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     24/7 Customer Support
                      </Text>
                      <Text
                         span
@@ -110,9 +133,31 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        We’re here to help you every step of the way. Our expert support team is always available.
+
+                     </Text>
+                  </Flex>
+               </Flex>
+               <Flex
+                  css={{
+                     py: '$10',
+                     gap: '$5',
+                  }}
+               >
+                  <BoxIcon />
+                  <Flex direction={'column'}>
+                     <Text h4 weight={'medium'}>
+                     Quick Setup
+                     </Text>
+                     <Text
+                        span
+                        css={{
+                           maxWidth: '400px',
+                           color: '$accents8',
+                        }}
+                     >
+                        Get started in minutes with our simple installation guides and hassle-free setup.
+
                      </Text>
                   </Flex>
                </Flex>

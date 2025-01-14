@@ -16,11 +16,11 @@ export const Hero = () => {
                'justifyContent': 'center',
                'alignItems': 'center',
                'width': '100%',
-               'backgroundImage': 'url(/football.webp)',
-               'backgroundSize': 'cover',
-               'backgroundPosition': 'center',
-               'backgroundRepeat': 'no-repeat',
-               'filter': 'brightness(0.7)',
+               // 'backgroundImage': 'url(/football.webp)',
+               // 'backgroundSize': 'cover',
+               // 'backgroundPosition': 'center',
+               // 'backgroundRepeat': 'no-repeat',
+               // 'filter': 'brightness(0.7)',
                '@sm': {
                   flexDirection: 'row',
                   mt: '$20',
@@ -39,7 +39,7 @@ export const Hero = () => {
             >
                <Box
                   css={{
-                     maxWidth: '600px',
+                     maxWidth: '1000px',
                   }}
                >
                   <Text
@@ -48,15 +48,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     The modern landing page{' '}
-                  </Text>
-                  <Text
-                     h1
-                     css={{
-                        display: 'inline',
-                     }}
-                  >
-                     for{' '}
+                     Welcome to{' '}
                   </Text>
                   <Text
                      h1
@@ -65,33 +57,42 @@ export const Hero = () => {
                      }}
                      color="primary"
                   >
-                     React developers
+                     [Your IPTV Service Name]- {' '}
                   </Text>
+                     <Text
+                        h1
+                        css={{
+                           display: 'inline',
+                        }}
+                     >
+                        Your Ultimate Gateway to Entertainment!
+                     </Text>
                </Box>
 
                <Text
                   css={{
                      color: '$accents8',
-                     maxWidth: '400px',
+                     maxWidth: '700px',
                   }}
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
+                  over 90,000 channels, an extensive movie & series library, and seamless streaming in (4k, 8k,FHD, HD & SD)– it’s everything you’ve been waiting for.
                </Text>
 
                <Flex
                   css={{
                      gap: '$8',
                      pt: '$4',
+                     justifyContent: 'center',
+                     alignItems: 'center',
                   }}
                   wrap={'wrap'}
                >
-                  <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Start Free Trial</Button>
+                  {/* <Input placeholder="Enter your email address" size="lg" /> */}
+                  <Button>Get Started</Button>
                </Flex>
-               <Flex
+               {/* <Flex
                   wrap={'wrap'}
                   css={{
                      'gap': '$8',
@@ -100,34 +101,34 @@ export const Hero = () => {
                         py: '$4',
                      },
                   }}
-               >
-                  <Flex
+               > */}
+                  {/* <Flex
                      css={{
                         color: '$accents7',
                         alignItems: 'center',
                      }}
                   >
                      <CheckIcon /> No credit card required.
-                  </Flex>
-                  <Flex
+                  </Flex> */}
+                  {/* <Flex
                      css={{
                         color: '$accents7',
                         alignItems: 'center',
                      }}
                   >
                      <CheckIcon /> 14-day free trial.
-                  </Flex>
-                  <Flex
+                  </Flex> */}
+                  {/* <Flex
                      css={{
                         color: '$accents7',
                         alignItems: 'center',
                      }}
                   >
                      <CheckIcon /> Cancel anytime.
-                  </Flex>
-               </Flex>
+                  </Flex> */}
+               {/* </Flex> */}
             </Box>
-            <Box
+            {/* <Box
                css={{
                   '& img': {
                      width: '775px',
@@ -136,7 +137,7 @@ export const Hero = () => {
                }}
             >
                <img src="mock.png" />
-            </Box>
+            </Box> */}
          </Flex>
          <Divider
             css={{position: 'absolute', inset: '0p', left: '0', mt: '$10'}}

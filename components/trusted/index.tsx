@@ -18,7 +18,7 @@ export const Trusted = () => {
             }}
          >
             <Text h2 css={{textAlign: 'center'}}>
-               Trusted by over 10000+ customers
+               Trusted by over 5000+ customers
             </Text>
             <Text
                css={{
@@ -29,8 +29,9 @@ export const Trusted = () => {
                weight="normal"
                size={'$lg'}
             >
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-               eiusmod tempor incididunt ut labore et dolore magna aliqua.
+               Experience Premium IPTV Services with Ultra-HD Quality and Lightning-Fast Streaming.
+               Stream the Best Sports, Movies, and TV Shows Anytime, Anywhere
+               
             </Text>
             <Grid.Container
                gap={6}
