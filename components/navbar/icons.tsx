@@ -5,7 +5,7 @@ interface Props {
    width?: number;
    height?: number;
 }
-import serverImage from '../../public/mock.png';
+// import serverImage from '../../public/mock.png';
 
 const ChevronDownIcon = ({
    fill,
