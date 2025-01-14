@@ -16,10 +16,11 @@ export const Hero = () => {
                'justifyContent': 'center',
                'alignItems': 'center',
                'width': '100%',
-               'backgroundImage': 'url(/mock.png)',
+               'backgroundImage': 'url(/football.webp)',
                'backgroundSize': 'cover',
                'backgroundPosition': 'center',
                'backgroundRepeat': 'no-repeat',
+               'filter': 'brightness(0.7)',
                '@sm': {
                   flexDirection: 'row',
                   mt: '$20',
