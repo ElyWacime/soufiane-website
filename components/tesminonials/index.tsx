@@ -182,10 +182,13 @@ export const Testimonials = () => {
                </Text>
                <Text h3>What our client say</Text>
                <Text span css={{color: '$accents8', maxW: '600px', pb: '$8'}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  Our IPTV service has transformed the viewing experience for countless
+                  customers. With access to over 90,000 channels, an extensive library of
+                  movies and series, and seamless streaming in 4K, 8K, FHD, HD, and SD,
+                  our clients are thrilled with the quality and variety we offer. Here are
+                  some of the success stories from our valued customers who have enjoyed
+                  uninterrupted entertainment and exceptional service. Their feedback
+                  highlights the dedication and expertise we bring to every subscription.
                </Text>
                <Button>Read case studies</Button>
             </Flex>
