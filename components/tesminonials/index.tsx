@@ -3,9 +3,12 @@ import React from 'react';
 import {QuotesIcon} from '../icons/QuotesIcon';
 import {Flex} from '../styles/flex';
 
+import MyGallery from '../MyGallery/index'
+
 export const Testimonials = () => {
    return (
       <>
+         <MyGallery />
          <Flex
             direction={'column'}
             css={{
