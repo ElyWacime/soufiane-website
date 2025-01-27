@@ -8,7 +8,6 @@ import MyGallery from '../MyGallery/index'
 export const Testimonials = () => {
    return (
       <>
-         <MyGallery />
          <Flex
             direction={'column'}
             css={{
@@ -29,7 +28,8 @@ export const Testimonials = () => {
             }}
          >
             <Flex direction="column" css={{gap: '1.5rem'}}>
-               <Card>
+               <MyGallery />
+               {/* <Card>
                   <Card.Body>
                      <Flex
                         css={{
@@ -165,7 +165,7 @@ export const Testimonials = () => {
                         </Flex>
                      </Flex>
                   </Card.Body>
-               </Card>
+               </Card> */}
             </Flex>
             <Flex
                align={'start'}
