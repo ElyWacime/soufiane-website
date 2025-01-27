@@ -175,7 +175,7 @@ export const Testimonials = () => {
                }}
             >
                <Text span css={{color: '$blue600'}}>
-                  Don't take our world for it
+                  Don&apos;t take our world for it
                </Text>
                <Text h3>What our client say</Text>
                <Text span css={{color: '$accents8', maxW: '600px', pb: '$8'}}>
