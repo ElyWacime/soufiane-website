@@ -30,17 +30,17 @@ export const Nav = () => {
       >
          <Navbar.Brand>
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
-            <AcmeLogo />
-            <Text b color="inherit" hideIn="xs">
+            {/* <AcmeLogo /> */}
+            {/* <Text b color="inherit" hideIn="xs">
                ACME
-            </Text>
+            </Text> */}
             <Navbar.Content
                hideIn="sm"
                css={{
                   pl: '6rem',
                }}
             >
-               <Dropdown isBordered>
+               {/* <Dropdown isBordered>
                   <Navbar.Item>
                      <Dropdown.Button
                         auto
@@ -115,9 +115,14 @@ export const Nav = () => {
                         +Supreme Support
                      </Dropdown.Item>
                   </Dropdown.Menu>
-               </Dropdown>
-               <Navbar.Link isActive href="#">
-                  Customers
+               </Dropdown> */}
+               <Navbar.Link onClick={() => {
+                  const element = document.querySelector(".features3");
+                  if (element) {
+                     element.scrollIntoView({ behavior: "smooth" });
+                  }
+                  }}>
+                  Services
                </Navbar.Link>
                <Navbar.Link onClick={() => {
                   const element = document.querySelector(".plans");
@@ -126,11 +131,11 @@ export const Nav = () => {
                   }
                   }}>Pricing</Navbar.Link>
                <Navbar.Link onClick={() => {
-                  const element = document.querySelector(".company");
+                  const element = document.querySelector(".testimonials");
                   if (element) {
                      element.scrollIntoView({ behavior: "smooth" });
                   }
-                  }}>Company</Navbar.Link>
+                  }}>Testimonials</Navbar.Link>
             </Navbar.Content>
          </Navbar.Brand>
 
@@ -170,10 +175,15 @@ export const Nav = () => {
             </Navbar.CollapseItem>
          </Navbar.Collapse>
          <Navbar.Content>
-            <ModalLogin />
+
+            {/* <ModalLogin /> */}
 
             <Navbar.Item>
-               <Button auto flat href="#">
+               <Button auto flat onClick={() => {
+                  const element = document.querySelector(".plans");
+                  if (element) {
+                     element.scrollIntoView({ behavior: "smooth" });
+               }}}>
                   Start free trial
                </Button>
             </Navbar.Item>

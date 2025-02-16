@@ -16,16 +16,46 @@ export const Hero = () => {
                'justifyContent': 'center',
                'alignItems': 'center',
                'width': '100%',
-               // 'backgroundImage': 'url(/football.webp)',
-               // 'backgroundSize': 'cover',
-               // 'backgroundPosition': 'center',
-               // 'backgroundRepeat': 'no-repeat',
-               // 'filter': 'brightness(0.7)',
+               'height': '100vh',
+               'backgroundImage': 'url(/Background_webp.webp)',
+               'backgroundSize': 'cover',
+               'backgroundPosition': 'center',
+               'backgroundRepeat': 'no-repeat',
+               'filter': 'brightness(0.9)',
                '@sm': {
                   flexDirection: 'row',
-                  mt: '$20',
+                  mt: '$0',
                },
             }}
+            // css={{
+            //    position: 'relative',
+            //    gap: '$3',
+            //    px: '$6',
+            //    flexDirection: 'column',
+            //    alignContent: 'center',
+            //    justifyContent: 'center',
+            //    alignItems: 'center',
+            //    width: '100%',
+            //    overflow: 'hidden',
+            //    '@sm': {
+            //       flexDirection: 'row',
+            //       mt: '$20',
+            //    },
+            //    '&::before': {
+            //       content: '""',
+            //       position: 'absolute',
+            //       top: 0,
+            //       left: 0,
+            //       width: '100%',
+            //       height: '100%',
+            //       backgroundImage: 'url(/football.webp)',
+            //       backgroundSize: 'cover',
+            //       backgroundPosition: 'center',
+            //       backgroundRepeat: 'no-repeat',
+            //       filter: 'brightness(0.5)',
+            //       zIndex: -1,
+            //    },
+            // }}
             justify={'center'}
          >
             <Box
@@ -35,6 +65,8 @@ export const Hero = () => {
                   display: 'flex',
                   flexDirection: 'column',
                   gap: '$5',
+                  justifyContent: 'center',
+                  alignItems: 'center',
                }}
             >
                <Box
@@ -83,7 +115,7 @@ export const Hero = () => {
                <Flex
                   css={{
                      gap: '$8',
-                     pt: '$4',
+                     pt: '$20',
                      justifyContent: 'center',
                      alignItems: 'center',
                   }}

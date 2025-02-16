@@ -8,6 +8,7 @@ export const Features3 = () => {
    return (
       <>
          <Box
+            className='features3'
             css={{
                px: '$6',
                pb: '$14',

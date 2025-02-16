@@ -9,6 +9,7 @@ export const Testimonials = () => {
    return (
       <>
          <Flex
+            className="testimonials"
             direction={'column'}
             css={{
                'gap': '1rem',
